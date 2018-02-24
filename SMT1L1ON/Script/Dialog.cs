@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace SMT1L1ON.Script
 {
-    public class DialogLine : IEnumerable<IToken>
+    public class Dialog : IEnumerable<IToken>
     {
         public List<IToken> Tokens { get; }
 
-        public DialogLine()
+        public Dialog()
         {
             Tokens = new List< IToken >();
         }

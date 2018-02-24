@@ -16,6 +16,11 @@
             return new TextToken( text );
         }
 
+        public static implicit operator string( TextToken token )
+        {
+            return token.Text;
+        }
+
         public override string ToString()
         {
             return Text;
